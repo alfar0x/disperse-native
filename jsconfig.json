@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*", "index.js"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "CommonJS",
+    "target": "es2021",
+  },
+  "lib": ["es5", "es6", "es2023"],
+}
